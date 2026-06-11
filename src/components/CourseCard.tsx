@@ -68,7 +68,11 @@ export default function CourseCard({ courseCode, isBanner }: CourseCardProps) {
 
       <View style={styles.row}>
         <Ionicons name="person-outline" size={14} />
-        <Text numberOfLines={1}>{courseData.instructors}</Text>
+        <Text numberOfLines={1}>
+          {courseData.instructors.length > 16
+            ? `${courseData.instructors.slice(0, 15)}...`
+            : courseData.instructors}
+        </Text>
       </View>
 
       <Text>

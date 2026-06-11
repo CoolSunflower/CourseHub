@@ -1,5 +1,8 @@
 import { CourseData } from "@/types/Course";
 
+export const PopularCourses: string[] = ["MLS0", "DLS4", "IDDSS5", "DAaVFS7"];
+export const FeaturedCourses: string[] = ["DCaAFS12", "ItDSS1", "KTfBS3"];
+
 export const coursesData: CourseData = {
   MLS0: {
     courseCode: "MLS0",
