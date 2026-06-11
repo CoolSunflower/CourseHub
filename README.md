@@ -36,6 +36,13 @@ Additional Features
 - About Application Screen
 ```
 
+## UI Screens
+
+![Home Page](assets/images/home.png)
+![Courses](assets/images/all_courses.png)
+![Course Details](assets/images/course_details.png)
+![About](assets/images/about.png)
+
 ## UI Design
 
 ### Home Screen
