@@ -1,9 +1,10 @@
-import { Text, View } from "react-native";
+import CourseCard from "@/components/CourseCard";
+import { View } from "react-native";
 
 export default function Index() {
   return (
     <View>
-      <Text>Home Screen</Text>
+      <CourseCard courseCode="MLS0" isBanner />
     </View>
   );
 }
